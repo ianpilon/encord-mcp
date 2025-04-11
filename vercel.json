@@ -8,6 +8,14 @@
   ],
   "routes": [
     {
+      "src": "/sse",
+      "dest": "src/server/index.ts"
+    },
+    {
+      "src": "/content",
+      "dest": "src/server/index.ts"
+    },
+    {
       "src": "/(.*)",
       "dest": "src/server/index.ts"
     }
